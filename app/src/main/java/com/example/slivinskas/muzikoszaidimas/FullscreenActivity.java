@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 //Mano naujas komentaras
+//Mno dar vienas komentaras
+
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -166,4 +168,5 @@ public class FullscreenActivity extends AppCompatActivity {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
+    //Naujas
 }
