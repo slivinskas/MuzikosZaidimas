@@ -40,7 +40,41 @@
                 android:layout_weight="1"
                 android:text="@string/dummy_button" />
 
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="left|center_vertical" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/MenuButton1"
+                        android:layout_height="wrap_content"
+                        android:layout_width = "wrap_content"
+                        android:text="Piano" />
+
+                    <Button
+                        android:id="@+id/MenuButton2"
+                        android:layout_height="wrap_content"
+                        android:layout_width = "wrap_content"
+                        android:text="Drums" />
+
+                    <Button
+                        android:id="@+id/MenuButton3"
+                        android:layout_height="wrap_content"
+                        android:layout_width = "wrap_content"
+                        android:text="Production section" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
         </LinearLayout>
-    </FrameLayout>
+
+     </FrameLayout>
 
 </FrameLayout>
