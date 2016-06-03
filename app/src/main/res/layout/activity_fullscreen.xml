@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:textSize="50sp"
         android:gravity="center"
-        android:text="@string/dummy_content" />
+        android:text="Music Town" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -68,6 +68,20 @@
                         android:layout_height="wrap_content"
                         android:layout_width = "wrap_content"
                         android:text="Production section" />
+
+                    <Button
+                        android:id="@+id/MenuButton4"
+                        android:layout_height="wrap_content"
+                        android:layout_width = "wrap_content"
+                        android:text="Project section" />
+
+                    <Button
+                        android:id="@+id/MenuButton5"
+                        android:layout_height="wrap_content"
+                        android:layout_width = "wrap_content"
+                        android:text="Button created for testing purposes" />
+
+
 
 
                 </LinearLayout>
